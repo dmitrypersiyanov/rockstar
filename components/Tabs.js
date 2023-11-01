@@ -6,6 +6,7 @@ const Tabs = ({ handleTab, active }) => {
       {tabs.map((tab) => {
         return (
           <div
+            key={tab.id}
             onClick={() => handleTab(tab.title)}
             className={`${
               active == tab.title ? `${tab.color}` : "text-slate-200"

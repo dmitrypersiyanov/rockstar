@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <>
@@ -28,22 +30,22 @@ const Footer = () => {
             </h2>
             <ul className="text-left text-gray-400">
               <li className="mb-2">
-                <a href="/#about">About us</a>
+                <Link href="/#about">About us</Link>
               </li>
               <li className="mb-2">
-                <a href="/#leadership">Leadership team</a>
+                <Link href="/#leadership">Leadership team</Link>
               </li>
               <li className="mb-2">
-                <a href="/#mission">Our Mission</a>
+                <Link href="/#mission">Our Mission</Link>
               </li>
               <li className="mb-2">
-                <a href="/#story">Our Story</a>
+                <Link href="/#story">Our Story</Link>
               </li>
               <li className="mb-2">
-                <a href="/vacancies">Career</a>
+                <Link href="/vacancies">Career</Link>
               </li>
               <li className="mb-2">
-                <a href="/tenders">Tenders</a>
+                <Link href="/tenders">Tenders</Link>
               </li>
             </ul>
           </div>

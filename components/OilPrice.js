@@ -2,39 +2,39 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Image from "next/image";
 
-const round = (num) => Math.ceil(parseFloat(num));
+// const round = (num) => Math.ceil(parseFloat(num));
 
 const OilPrice = () => {
-  const [prices, setPrices] = useState(null);
-  const [isLoading, setIsloading] = useState(false);
+  // const [prices, setPrices] = useState(null);
+  // const [isLoading, setIsloading] = useState(false);
 
-  const loadData = async () => {
-    setIsloading(true);
-    const response = await axios
-      .get("https://api.coindesk.com/v1/bpi/currentprice.json")
-      .catch((err) => {
-        if (err.toJSON().message === "Network Error") {
-          alert("Please check your internet connection");
-          console.log(err.toJSON());
-        }
-      });
-    const data = response.data;
-    setPrices(data.bpi["USD"].rate);
-    setIsloading(false);
-    console.log(prices);
-  };
+  // const loadData = async () => {
+  //   setIsloading(true);
+  //   const response = await axios
+  //     .get("https://api.coindesk.com/v1/bpi/currentprice.json")
+  //     .catch((err) => {
+  //       if (err.toJSON().message === "Network Error") {
+  //         alert("Please check your internet connection");
+  //         console.log(err.toJSON());
+  //       }
+  //     });
+  //   const data = response.data;
+  //   setPrices(data.bpi["USD"].rate);
+  //   setIsloading(false);
+  //   console.log(prices);
+  // };
 
-  const getDate = new Date();
-  const getHours = getDate.getHours();
-  const getMinutes = getDate.getMinutes();
+  // const getDate = new Date();
+  // const getHours = getDate.getHours();
+  // const getMinutes = getDate.getMinutes();
 
-  useEffect(() => {
-    loadData();
-    const updatePrice = setInterval(() => {
-      loadData();
-    }, 60000);
-    return () => clearInterval(updatePrice);
-  }, []);
+  // useEffect(() => {
+  //   loadData();
+  //   const updatePrice = setInterval(() => {
+  //     loadData();
+  //   }, 60000);
+  //   return () => clearInterval(updatePrice);
+  // }, []);
 
   return (
     <>
