@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import axios from "axios";
+// import { useEffect, useState } from "react";
+// import axios from "axios";
 import Image from "next/image";
 
 // const round = (num) => Math.ceil(parseFloat(num));
@@ -51,17 +51,12 @@ const OilPrice = () => {
         <div className="w-full md:w-1/2 overflow-hidden relative">
           <Image
             alt="shape"
-            width="0"
-            height="0"
+            width="1000"
+            height="1000"
             src="/images/blob.svg"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              transform: "rotate(180deg)",
-            }}
+            className="w-full h-full object-cover"
           />
-          <div className="absolute top-[calc(50%-20px)] left-[calc(50%-125px)] w-[250px] h-14 sm:h-14 lg:h-14 bg-slate-800 shadow-lifted text-lg text-slate-100 font-semibold rounded-full flex justify-center items-center">
+          <div className="absolute top-[calc(50%-20px)] left-[calc(50%-100px)] sm:left-[calc(50%-125px)] w-[200px] sm:w-[250px] h-14 sm:h-14 lg:h-14 bg-slate-800 shadow-lifted text-md text-slate-100 font-semibold rounded-full flex justify-center items-center">
             89 USD / per bbl
             {/* {round(prices)} USD / per bbl */}
             {/* <div className="absolute w-[200px] -bottom-10 left-[calc(50%-100px)] text-sm flex justify-center text-slate-800 items-center font-thin">

@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
 svg {
   width: 27px;
 }
@@ -15,6 +9,13 @@ svg {
 @layer base {
   html {
     @apply scroll-smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer components {
+  .banner {
+    @apply bg-[url('/blob.svg')] bg-no-repeat w-full bg-cover bg-center h-full;
   }
 }
 
