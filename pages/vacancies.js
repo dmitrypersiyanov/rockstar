@@ -20,11 +20,11 @@ const Vacancies = () => {
         </div>
         <div className="w-full relative h-96 lg:h-full order-1 lg:order-2">
           <Image
-            blurDataURL="/images/placeholder.jpg"
+            blurDataURL="/images/placeholder-dark.jpg"
             placeholder="blur"
             alt="team"
             fill
-            objectFit="cover"
+            className="object-cover"
             src="/images/team.jpg"
           />
         </div>

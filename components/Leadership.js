@@ -77,9 +77,9 @@ const Leadership = () => {
                 </div>
                 <div className="sm:shadow-dark h-[270px] sm:h-[350px] mt-6 mb-5 mx-auto overflow-hidden rounded-lg relative">
                   <Image
+                    className="object-cover"
                     src={md.image}
                     fill
-                    objectFit="cover"
                     alt={md.name}
                     placeholder="blur"
                     blurDataURL="/images/placeholder.jpg"
@@ -147,7 +147,7 @@ const Leadership = () => {
                         alt={bm.name}
                         src={bm.image}
                         fill
-                        objectFit="cover"
+                        className="object-cover"
                       />
                     </div>
                   );
@@ -178,7 +178,7 @@ const Leadership = () => {
                           src={member.image}
                           alt="member"
                           fill
-                          objectFit="cover"
+                          className="object-cover"
                           placeholder="blur"
                           blurDataURL="/images/placeholder.jpg"
                         />
@@ -209,7 +209,7 @@ const Leadership = () => {
                           src={member.image}
                           alt="member"
                           fill
-                          objectFit="cover"
+                          className="object-cover"
                           placeholder="blur"
                           blurDataURL="/images/placeholder.jpg"
                         />

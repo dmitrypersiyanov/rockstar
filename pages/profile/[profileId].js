@@ -69,6 +69,7 @@ const ProfileDescription = () => {
                       </h2>
                       <p className="text-lg text-slate-800 mt-5">{md.bio}</p>
                       <p className="text-lg text-slate-800 mt-5">{md.bio}</p>
+                      <p className="text-lg text-slate-800 mt-5">{md.bio}</p>
                       <p className="text-lg text-slate-800 mt-5">Ciao!</p>
                     </div>
                   </div>
@@ -132,6 +133,7 @@ const ProfileDescription = () => {
                       <h2 className="font-bold text-xl text-slate-900">
                         Biography
                       </h2>
+                      <p className="text-lg text-slate-800 mt-5">{bm.bio}</p>
                       <p className="text-lg text-slate-800 mt-5">{bm.bio}</p>
                       <p className="text-lg text-slate-800 mt-5">{bm.bio}</p>
                       <p className="text-lg text-slate-800 mt-5">Ciao!</p>

@@ -7,7 +7,7 @@ const TendersTable = () => {
   return (
     <>
       <div className="overflow-x-auto w-full">
-        <table className="mt-10 w-full whitespace-nowrap text-sm sm:text-md">
+        <table className="mt-10 w-full whitespace-nowrap text-sm sm:text-lg">
           <thead>
             <tr>
               <th className="text-left py-5 pl-5 sm:pl-10 bg-slate-800 font-semibold text-green-400">
