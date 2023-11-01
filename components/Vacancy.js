@@ -4,8 +4,8 @@ import { useEffect } from "react";
 import Link from "next/link";
 
 const vacancyItem = {
-  visible: { opacity: 1, y: 0, transition: { duration: 1.3 } },
-  hidden: { opacity: 0, y: 0 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  hidden: { opacity: 0, y: 40 },
 };
 
 const Vacancy = ({
@@ -36,7 +36,7 @@ const Vacancy = ({
         animate={controls}
         initial="hidden"
         variants={vacancyItem}
-        className="w-full p-10 rounded-md  bg-slate-50 flex flex-col md:flex-row justify-between"
+        className="w-full p-8 sm:p-10 rounded-md  bg-slate-50 flex flex-col md:flex-row justify-between"
       >
         <div className="w-full ">
           <h4 className="text-md font-bold text-slate-700">{title}</h4>

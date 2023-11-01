@@ -5,10 +5,10 @@ export const mds = [
     nationality: "canadian",
     title: "Chairman & Managing Director",
     bio: "Shabala bala hubala bala balabula Shabala bala hubala bala balabula Shabala bala hubala bala balabula Shabala bala hubala bala balabula Shabala bala hubala bala balabula",
-    image: "/images/profile6.jpg",
+    image: "/images/nickolas.jpg",
     country: "Canada",
     quote:
-      "This is the best quote about a funny guy in the medieval ages, who was...",
+      "Success is not final, failure is not fatal. It is the courage to continue that counts",
     flag: "/images/canada.png",
   },
   {
@@ -17,10 +17,9 @@ export const mds = [
     nationality: "ukrainian",
     title: "General Manager & Managing Director",
     bio: "Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero",
-    image: "/images/profile2.jpg",
+    image: "/images/ethan.jpg",
     country: "Ukraine",
-    quote:
-      "This is a great quote about relationships in the middle ages, which...",
+    quote: "It is better to fail in originality than to succeed in imitation",
     flag: "/images/ukraine.png",
   },
 ];

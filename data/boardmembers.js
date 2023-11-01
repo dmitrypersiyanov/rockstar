@@ -5,8 +5,8 @@ export const boardmembers = [
     nationality: "canadian",
     title: "Assistant Chairman for Finance",
     bio: "Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero",
-    image: "/images/profile1.jpg",
-    quote: "This is a another wonderful quote about a young man...",
+    image: "/images/james.jpg",
+    quote: "Learn as if you will live forever, live like you will die tomorrow",
   },
   {
     id: "2",
@@ -14,8 +14,9 @@ export const boardmembers = [
     nationality: "canadian",
     title: "Assistant Chairman for Exploration",
     bio: "Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero",
-    image: "/images/profile2.jpg",
-    quote: "This is a wonderful quote about a young man in the modern time...",
+    image: "/images/liam.jpg",
+    quote:
+      "We cannot solve problems with the kind of thinking we employed when we came up with them",
   },
   {
     id: "3",
@@ -23,9 +24,9 @@ export const boardmembers = [
     nationality: "canadian",
     title: "Assistant Chairman for Operation",
     bio: "Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero",
-    image: "/images/profile3.jpg",
+    image: "/images/jacob.jpg",
     quote:
-      "This is a wonderful quote about a young girl in the ancient Egypt, who was...",
+      "Stay away from those people who try to disparage your ambitions. Small minds will always do that",
   },
   {
     id: "4",
@@ -33,9 +34,9 @@ export const boardmembers = [
     nationality: "ukrainian",
     title: "Deputy Finance General Manager",
     bio: "Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero",
-    image: "/images/profile4.jpg",
+    image: "/images/leonid.jpg",
     quote:
-      "This is a perfect quote about a young woman in her twenties, who believes...",
+      "When you give joy to other people, you get more joy in return. You should give a good thought to happiness that you can give out",
   },
   {
     id: "5",
@@ -43,9 +44,8 @@ export const boardmembers = [
     nationality: "ukrainian",
     title: "Deputy Contracts General Manager",
     bio: "Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero",
-    image: "/images/businessman.jpg",
-    quote:
-      "This is a wonderful quote about a dog in the beautiful house, who was...",
+    image: "/images/roman.jpg",
+    quote: "When you change your thoughts, remember to also change your world",
   },
   {
     id: "6",
@@ -53,8 +53,8 @@ export const boardmembers = [
     nationality: "ukrainian",
     title: "Deputy Operation General Manager",
     bio: "Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero Loremo ipsumatimo pulpoteros vermero",
-    image: "/images/profile6.jpg",
+    image: "/images/lucas.jpg",
     quote:
-      "This is a wonderful quote about a young freinds in the middle ages, who were...",
+      "It is only when we take chances, when our lives improve. The initial and the most difficult risk that we need to take is to become honest",
   },
 ];

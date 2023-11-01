@@ -1,6 +1,6 @@
-import styles from "../styles/Header.module.css";
 import Contact from "./Contact";
 import { useState } from "react";
+import Link from "next/link";
 
 const Header = () => {
   const [showModal, setShowModal] = useState(false);
@@ -11,30 +11,30 @@ const Header = () => {
   return (
     <>
       {showModal && <Contact toggleModal={toggleModal} />}
-      <nav className={styles.navigation}>
-        <a href="/" className="font-bold text-2xl text-green-500">
+      <nav className="shadow-navshadow bg-white h-[100px] flex justify-between items-center fixed left-0 right-0 top-0 bottom-0 z-20 px-[30px] md:px-[40px]">
+        <Link href="/" className="font-bold text-2xl text-green-500">
           rockstar
-        </a>
-        <div className="flex flex-row gap-3">
-          <a
+        </Link>
+        <div className="hidden md:flex flex-row gap-3">
+          <Link
             className="px-3 py-3 bg-white cursor-pointer hover:text-green-400 rounded-sm"
             href="/#about"
           >
             About us
-          </a>
+          </Link>
 
-          <a
+          <Link
             className="px-3 py-3 bg-white cursor-pointer hover:text-green-400 rounded-sm"
             href="/#leadership"
           >
             Our team
-          </a>
-          <a
+          </Link>
+          <Link
             className="px-3 py-3 bg-white cursor-pointer hover:text-green-400 rounded-sm"
             href="/vacancies"
           >
             Career
-          </a>
+          </Link>
         </div>
         <div>
           <button

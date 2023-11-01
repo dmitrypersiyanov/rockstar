@@ -16,26 +16,22 @@ const ProfileDescription = () => {
             .map((md) => {
               return (
                 <>
-                  <div key={md.id} className=" grid grid-cols-2">
-                    <div className="w-full h-full bg-slate-100 overflow-hidden p-20 border-y-[20px] border-slate-700 ">
-                      <h2 className="font-bold text-xl text-slate-800">
+                  <div key={md.id} className="grid grid-cols-1 lg:grid-cols-2">
+                    <div className="w-full h-full bg-slate-100 overflow-hidden p-8 sm:p-10 md:p-20 lg:p-14 xl:p-20 border-t-[20px] border-b-0 lg:border-b-[20px] border-slate-700 ">
+                      <h2 className="font-bold text-lg sm:text-xl text-slate-800">
                         {md.name}
                       </h2>
-                      <h3 className=" text-lg text-slate-800 mb-10">
+                      <h3 className="text-md sm:text-lg text-slate-800 mb-10">
                         {md.title}
                       </h3>
-                      <div className="rounded-md overflow-hidden">
+                      <div className="w-full h-72 sm:h-96 lg:h-64 xl:h-96 rounded-md overflow-hidden relative">
                         <Image
                           src={md.image}
                           alt={md.name}
-                          width="1000"
-                          height="1000"
-                          style={{
-                            objectFit: "cover",
-                            width: "100%",
-                            height: "auto",
-                            maxHeight: "400px",
-                          }}
+                          fill
+                          objectFit="cover"
+                          placeholder="blur"
+                          blurDataURL="/images/placeholder.jpg"
                         />
                       </div>
                       <div className="flex flex-row items-center mt-10">
@@ -67,15 +63,13 @@ const ProfileDescription = () => {
                         </a>
                       </div>
                     </div>
-                    <div className="w-full h-full bg-green-400 overflow-hidden p-20 border-y-[20px] border-slate-700 ">
+                    <div className="w-full h-full bg-green-400 overflow-hidden p-8 sm:p-10 md:p-20 lg:p-14 xl:p-20 border-y-[20px] border-slate-700 ">
                       <h2 className="font-bold text-xl text-slate-900">
                         Biography
                       </h2>
                       <p className="text-lg text-slate-800 mt-5">{md.bio}</p>
                       <p className="text-lg text-slate-800 mt-5">{md.bio}</p>
-                      <p className="text-lg text-slate-800 mt-5">
-                        Belissimo! Gracias por favor!
-                      </p>
+                      <p className="text-lg text-slate-800 mt-5">Ciao!</p>
                     </div>
                   </div>
                   <Quote quote={md.quote} />
@@ -87,26 +81,22 @@ const ProfileDescription = () => {
             .map((bm) => {
               return (
                 <>
-                  <div key={bm.id} className=" grid grid-cols-2">
-                    <div className="w-full h-full bg-slate-50 overflow-hidden p-20 border-y-[20px] border-slate-700 ">
-                      <h2 className="font-bold text-xl text-slate-800">
+                  <div key={bm.id} className=" grid grid-cols-1 lg:grid-cols-2">
+                    <div className="w-full h-full bg-slate-50 overflow-hidden p-8 sm:p-10 md:p-20 lg:p-14 xl:p-20 border-t-[20px] border-b-0 lg:border-b-[20px] border-slate-700 ">
+                      <h2 className="font-bold text-lg sm:text-xl text-slate-800">
                         {bm.name}
                       </h2>
-                      <h3 className=" text-lg text-slate-800 mb-10">
+                      <h3 className="text-md sm:text-lg text-slate-800 mb-10">
                         {bm.title}
                       </h3>
-                      <div className="rounded-md overflow-hidden">
+                      <div className="w-full h-72 sm:h-96 lg:h-64 xl:h-96 rounded-md overflow-hidden relative">
                         <Image
                           src={bm.image}
                           alt={bm.name}
-                          width="1000"
-                          height="1000"
-                          style={{
-                            objectFit: "cover",
-                            width: "100%",
-                            height: "auto",
-                            maxHeight: "400px",
-                          }}
+                          fill
+                          objectFit="cover"
+                          placeholder="blur"
+                          blurDataURL="/images/placeholder.jpg"
                         />
                       </div>
                       <div className="flex flex-row items-center mt-10">
@@ -138,15 +128,13 @@ const ProfileDescription = () => {
                         </a>
                       </div>
                     </div>
-                    <div className="w-full h-full bg-green-400 overflow-hidden p-20 border-y-[20px] border-slate-700 ">
+                    <div className="w-full h-full bg-green-400 overflow-hidden p-8 sm:p-10 md:p-20 lg:p-14 xl:p-20 border-y-[20px] border-slate-700 ">
                       <h2 className="font-bold text-xl text-slate-900">
                         Biography
                       </h2>
                       <p className="text-lg text-slate-800 mt-5">{bm.bio}</p>
                       <p className="text-lg text-slate-800 mt-5">{bm.bio}</p>
-                      <p className="text-lg text-slate-800 mt-5">
-                        Belissimo! Gracias por favor!
-                      </p>
+                      <p className="text-lg text-slate-800 mt-5">Ciao!</p>
                     </div>
                   </div>
                   <Quote quote={bm.quote} />

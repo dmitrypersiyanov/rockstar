@@ -1,4 +1,5 @@
 import Image from "next/image";
+import placeholderImage from "@/public/images/ukraine.png";
 import { useState, useEffect } from "react";
 import { MinusIcon, PlusIcon } from "@/public/icons/icons";
 import { boardmembers } from "@/data/boardmembers";
@@ -41,28 +42,28 @@ const Leadership = () => {
     <>
       <div
         id="leadership"
-        className="p-24 pt-36 flex flex-col gap-20 bg-slate-800 mt-40 rounded-sm relative"
+        className="p-0 sm:px-10 pb-10 md:pb-20 xl:p-24 pt-0 sm:pt-20 xl:pt-36 flex flex-col gap-10 xl:gap-20 bg-none sm:bg-slate-800 mt-10 sm:mt-24 xl:mt-40 rounded-sm relative"
       >
         <motion.div
           ref={ref}
           animate={controls}
           initial="hidden"
           variants={leadershipTitle}
-          className="absolute rounded-md min-w-[300px] top-[-60px] left-[calc(50%-250px)] w-[500px] h-[120px] z-0 bg-green-400 flex justify-center items-center"
+          className="relative sm:absolute rounded-md w-full sm:min-w-[300px] sm:top-[-40px] xl:top-[-50px] sm:left-[calc(50%-150px)] xl:left-[calc(50%-250px)] sm:w-[300px] px-10 xl:w-[500px] h-[80px] xl:h-[100px] z-0 bg-green-400 flex justify-center items-center"
         >
-          <h1 className="text-[36px] font-semibold text-center text-slate-800 z-10">
-            <span className="font-bold">Our leadership team</span>
+          <h1 className="text-[25px] xl:text-[32px] font-bold text-center text-slate-800 z-10 leading-6">
+            Our leadership team
           </h1>
         </motion.div>
-        <div className="flex flex-row justify-between w-full gap-20 z-10">
+        <div className="flex flex-col xl:flex-row justify-between w-full gap-10 xl:gap-20 z-10">
           {mds.map((md) => {
             return (
               <div
                 key={md.id}
-                className="w-full min-h-96 bg-white py-10 px-14 rounded-lg"
+                className="w-full md:w-[450px] mx-auto xl:w-full min-h-96 bg-white py-8 px-8 sm:py-10 sm:px-10 lg:px-14 rounded-lg border-2 sm:border-none border-slate-100"
               >
-                <div className="flex justify-between flex-row mb-14">
-                  <h3 className="text-xl font-semibold text-left text-gray-800">
+                <div className="flex justify-between flex-row mb-10 xl:mb-14">
+                  <h3 className="text-lg sm:text-xl font-semibold text-left text-gray-800">
                     {md.country}
                   </h3>
                   <div className="w-6 h-6 rounded-full overflow-hidden">
@@ -74,27 +75,26 @@ const Leadership = () => {
                     />
                   </div>
                 </div>
-                <div className="shadow-dark h-[300px] bg-red-200 mt-6 mb-5 mx-auto overflow-hidden rounded-lg">
+                <div className="sm:shadow-dark h-[270px] sm:h-[350px] mt-6 mb-5 mx-auto overflow-hidden rounded-lg relative">
                   <Image
                     src={md.image}
-                    width="1000"
-                    height="1000"
-                    style={{
-                      height: "100%",
-                      width: "100%",
-                      objectFit: "cover",
-                    }}
-                    alt="alt"
+                    fill
+                    objectFit="cover"
+                    alt={md.name}
+                    placeholder="blur"
+                    blurDataURL="/images/placeholder.jpg"
                   />
                 </div>
-                <h4 className="font-bold text-lg mb-0 text-left">{md.name}</h4>
-                <h5 className="font-normal text-lg m-0 text-left">
+                <h4 className="font-bold text-md sm:text-lg mb-0 text-left">
+                  {md.name}
+                </h4>
+                <h5 className="font-normal text-md sm:text-lg m-0 text-left">
                   {md.title}
                 </h5>
                 <div className="flex flex-row justify-between mt-10">
                   <Link
                     href={`profile/${md.name}`}
-                    className="px-4 py-3 bg-slate-100 rounded-md"
+                    className="px-4 py-3 bg-slate-100 rounded-md text-sm sm:text-md"
                   >
                     Learn more
                   </Link>
@@ -128,29 +128,26 @@ const Leadership = () => {
             );
           })}
         </div>
-        <div className={`w-full h-auto bg-white py-10 px-14 rounded-lg`}>
+        <div
+          className={`w-full md:w-[450px] xl:w-full h-auto mx-auto bg-white py-8 px-8 sm:py-8 sm:px-10 lg:px-14 rounded-lg border-2 sm:border-none border-slate-100`}
+        >
           <div className="flex flex-row justify-between items-center">
             <div className="flex items-center gap-6">
-              <h2 className="text-lg">Board and leadership team</h2>
-              <div className="flex flex-row">
+              <h2 className="text-md sm:text-lg">Board and leadership team</h2>
+              <div className="hidden xl:flex flex-row">
                 {boardmembers.map((bm, index) => {
                   return (
                     <div
                       key={index}
                       className={`w-8 h-8 ${
                         isHidden ? "opacity-100" : "opacity-0"
-                      } rounded-full bg-gray-100 -ml-2 transition-opacity duration-500 overflow-hidden border-[2px] border-slate-200`}
+                      } rounded-full bg-gray-800 -ml-2 transition-opacity duration-500 overflow-hidden border-[2px] border-slate-200 relative`}
                     >
                       <Image
                         alt={bm.name}
                         src={bm.image}
-                        width="1000"
-                        height="1000"
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          objectFit: "cover",
-                        }}
+                        fill
+                        objectFit="cover"
                       />
                     </div>
                   );
@@ -165,67 +162,65 @@ const Leadership = () => {
             className={`${
               isHidden
                 ? "max-h-0 pt-0 opacity-0"
-                : "max-h-[1200px] opacity-100 pt-10 "
+                : "h-auto xl:max-h-[1200px] opacity-100 pt-10 "
             } bg-white overflow-hidden transition-all delay-100 duration-300 flex flex-col gap-8`}
           >
-            <div className="flex flex-row flex-nowrap gap-8 ">
+            <div className="flex flex-col xl:flex-row flex-nowrap gap-8 ">
               {canadianMembers.map((member) => {
                 return (
                   <div
                     key={member.id}
                     className="w-full min-h-48 flex flex-col rounded-md overflow-hidden"
                   >
-                    <a href={`profile/${member.name}`}>
-                      <div>
+                    <Link href={`profile/${member.name}`}>
+                      <div className="sm:shadow-dark h-[270px] sm:h-[350px] mx-auto relative overflow-hidden rounded-lg">
                         <Image
                           src={member.image}
                           alt="member"
-                          width="1000"
-                          height="1000"
-                          style={{
-                            width: "100%",
-                            height: "250px",
-                            objectFit: "cover",
-                            objectPosition: "center",
-                          }}
+                          fill
+                          objectFit="cover"
+                          placeholder="blur"
+                          blurDataURL="/images/placeholder.jpg"
                         />
                       </div>
                       <div className="px-0">
-                        <h3 className="text-lg font-bold mt-5">
+                        <h3 className="text-md sm:text-lg font-bold mt-5">
                           {member.name}
                         </h3>
-                        <h4 className="text-lg mb-10">{member.title}</h4>
+                        <h4 className="text-md sm:text-lg mb-10">
+                          {member.title}
+                        </h4>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 );
               })}
             </div>
-            <div className="flex flex-row flex-nowrap gap-8 ">
+            <div className="flex flex-col xl:flex-row flex-nowrap gap-8 ">
               {ukrainianMembers.map((member) => {
                 return (
                   <div
                     key={member.id}
                     className="w-full min-h-48 flex flex-col rounded-md overflow-hidden group"
                   >
-                    <a href={`profile/${member.name}`}>
-                      <div>
+                    <Link href={`profile/${member.name}`}>
+                      <div className="sm:shadow-dark h-[270px] sm:h-[350px] mx-auto relative overflow-hidden rounded-lg">
                         <Image
                           src={member.image}
                           alt="member"
-                          width="1000"
-                          height="1000"
-                          style={{
-                            width: "100%",
-                            height: "250px",
-                            objectFit: "cover",
-                            objectPosition: "center",
-                          }}
+                          fill
+                          objectFit="cover"
+                          placeholder="blur"
+                          blurDataURL="/images/placeholder.jpg"
                         />
                       </div>
-                      <h3 className="text-lg font-bold mt-5">{member.name}</h3>
-                      <h4 className="text-lg mb-10">{member.title}</h4>
-                    </a>
+                      <h3 className="text-md sm:text-lg font-bold mt-5">
+                        {member.name}
+                      </h3>
+                      <h4 className="text-md sm:text-lg mb-10">
+                        {member.title}
+                      </h4>
+                    </Link>
                   </div>
                 );
               })}
