@@ -1,7 +1,7 @@
 import { vacancies } from "@/data/vacancies";
 import Vacancy from "@/components/Vacancy";
 import Image from "next/image";
-import placeholderDark from "@/public/images/placeholder-dark.jpg";
+import team from "@/public/images/team.jpg";
 
 const Vacancies = () => {
   return (
@@ -21,12 +21,11 @@ const Vacancies = () => {
         </div>
         <div className="w-full relative h-96 lg:h-full order-1 lg:order-2">
           <Image
-            placeholder="blur"
-            blurDataURL={placeholderDark}
-            alt="team"
             fill
             className="object-cover"
-            src="/images/team.jpg"
+            placeholder="blur"
+            src={team}
+            alt="team"
           />
         </div>
       </div>
