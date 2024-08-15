@@ -44,8 +44,9 @@ const OilPrice = () => {
             Real-time Crude Oil Prices
           </h2>
           <p className="mt-10 text-lg lg:text-xl text-slate-600">
-            Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem
-            ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum
+          Stay updated with real-time crude oil prices. 
+          We provide regular updates to keep you informed about the 
+          latest market trends and price movements.
           </p>
         </div>
         <div className="w-full md:w-1/2 overflow-hidden relative">

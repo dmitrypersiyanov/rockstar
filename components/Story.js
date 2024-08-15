@@ -10,9 +10,8 @@ const Story = () => {
             Our story
           </h1>
           <p className="text-xl lg:text-2xl font-normal text-gray-500 text-left sm:text-center max-w-[700px] mx-auto leading-7 mt-3">
-            The smell was unmistakable. It was a smell you could see. The
-            vapours rose clearly. It was a smell you could see. It was a smell
-            you could see.
+          The smell was unmistakable. It was a scent that you could see. The vapors rose clearly, marking the beginning of something 
+          transformative. It was a presence that signaled the start of our journey into the world of energy.
           </p>
         </div>
         <div className="flex flex-row justify-start">

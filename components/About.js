@@ -14,10 +14,9 @@ const About = () => {
         What we do
       </h1>
       <p className="text-lg sm:text-xl font-normal text-gray-500 text-justify sm:text-center md:text-left md:mx-0 mx-auto leading-7 w-full md:w-[80%] min-w-96 mt-5">
-        Established in 2012, Rockstar Petroleum has positioned itself as a
-        reliable partner to 100+ Canadian and international companies. Being
-        among the top oil and gas producers in Canada, we run the whole cycle of
-        production
+      Established in 2012, Rockstar Petroleum is a leading name in the oil and gas sector, partnering with over 100 Canadian and international companies. As a top 
+      producer in Canada, we manage every stage of the production cycle, from exploration to distribution. Our focus on reliability and efficiency ensures we meet 
+      the high demands of our global clientele
       </p>
       <div className="flex flex-col gap-4">
         <div className="flex flex-col sm:flex-row mt-12 gap-4 mb-8 md:justify-start justify-center">

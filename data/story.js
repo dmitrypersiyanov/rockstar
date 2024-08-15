@@ -3,64 +3,77 @@ export const story = [
     id: 1,
     year: "2012",
     title: "Concession agreement",
-    description: `Back in England, William D’Arcy 
-      was close to despair. He had gambled his 
-      considerable fortune on oil, and now he 
-      was on the verge of losing it all. It 
-      seemed that the geologists and experts 
-      who had wagged their heads encouragingly 
-      at him since 1901.`,
+    description: `In the early 20th century, John Mitchell, 
+    a determined investor from Canada, faced a daunting challenge. 
+    Despite having scant assurances of success, he poured a significant 
+    portion of his wealth into oil exploration. Many industry experts 
+    were doubtful, but Mitchell's resolve and vision drove him forward. 
+    His bold investment eventually bore fruit, leading to a 
+    groundbreaking success that marked a turning point in the Canadian 
+    oil industry.`,
   },
   {
     id: 2,
     year: "2015",
     title: "Pipeline",
-    description: `Having never set foot in Persia himself, 
-      Mr D'Arcy didn't even have adventure travel 
-      stories to show for his investment. What 
-      he had was letters and telegrams from his 
-      explorer, urging patience, practically 
-      begging to extend the search.`,
+    description: `After his successful discovery, John Mitchell faced the 
+    challenge of transporting his newfound wealth. Undeterred, he 
+    spearheaded the construction of the first oil pipeline. 
+    The project was a monumental task, involving complex engineering and
+     logistics. Mitchell's vision and perseverance led to the 
+     completion of this pioneering pipeline, revolutionizing oil 
+     transport and setting a new standard for the industry.`,
   },
   {
     id: 3,
     year: "2019",
     title: "Camp",
-    description: `But patience, like Mr D'Arcy's finances, 
-      had run out. Even the Burmah Oil Company, 
-      whose investment had saved the expedition 
-      in 1904 were tiring of finding nothing.`,
+    description: `Following the discovery, a well-planned camp was quickly 
+    established to accommodate contractors and field members. This 
+    essential facility provided the necessary infrastructure and comfort, 
+    supporting ongoing operations effectively. The foresight and 
+    dedication in setting up the camp ensured it became a crucial hub 
+    for the project's success.`,
   },
   {
     id: 4,
     year: "2021",
     title: "Gas compressors",
-    description: `Giving up was not part of George Reynolds's 
-      character, even if he might admit that this 
-      particular search had often seemed doomed. 
-      It had taken 10 days just to get to 
-      Shardin, eight months to start drilling 
-      and six years of toiling to find nothing 
-      of any consequence.`,
+    description: `The introduction of gas compressor sets marked a pivotal 
+    milestone. Initially rented at a high cost, their purchase later 
+    resulted in significant savings. Gas compressors are crucial in the 
+    oil industry as they boost gas pressure for efficient pipeline 
+    transport and storage. By investing in these compressors, the 
+    operation enhanced its efficiency and cut long-term costs, 
+    reflecting a strategic move towards optimizing resource 
+    management and operational performance.`,
   },
   {
     id: 5,
     year: "2023",
     title: "Permanent facilities",
-    description: `Torrential rains had washed away four 
-      months of work on a link road to Masjid-i-Suleiman, 
-      where two weeks ago a drill bit had 
-      fallen off in one of two last-chance wells 
-      and taken more than a week to fish out.`,
+    description: `Upgrading from rented to purchased oil and gas 
+    facilities represented a major milestone. Initially, the 
+    reliance on rented facilities incurred high ongoing costs. 
+    By investing in permanent assets, significant savings were 
+    achieved, and operational stability was greatly enhanced. 
+    The purchase of these facilities provided a dependable 
+    infrastructure for scaling operations and improving 
+    efficiency, reflecting a strategic commitment to 
+    long-term growth and cost management in the oil and gas sector.`,
   },
   {
     id: 6,
     year: "Ongoing",
     title: "Transformation",
-    description: `But vindication was in the air. By the 
-      early morning of 26 May 1908, the whole 
-      camp reeked of sulphur. At four o'clock 
-      the drill reached 1,180 feet and a fountain 
-      of oil spewed out into the dawn sky.`,
+    description: `As the company continues to evolve, it remains steadfast 
+    in its mission to revolutionize energy for a sustainable future. 
+    The ongoing transformation encompasses integrating advanced 
+    technologies, enhancing operational efficiency, and investing 
+    in innovative solutions. This proactive approach supports the 
+    company\'s goal of achieving net zero emissions by 2050 or 
+    sooner. By continuously adapting and advancing, the company 
+    is dedicated to leading the industry towards a more sustainable 
+    and responsible energy landscape.`,
   },
 ];

@@ -60,7 +60,7 @@ const Leadership = () => {
             return (
               <div
                 key={md.id}
-                className="w-full md:w-[450px] mx-auto xl:w-full min-h-96 bg-white py-8 px-8 sm:py-10 sm:px-10 lg:px-14 rounded-lg border-2 sm:border-none border-slate-100"
+                className="w-full md:w-[450px] mx-auto xl:w-full min-h-96 bg-white py-8 px-8 sm:py-10 sm:px-10 lg:px-10 rounded-lg border-2 sm:border-none border-slate-100"
               >
                 <div className="flex justify-between flex-row mb-10 xl:mb-14">
                   <h3 className="text-lg sm:text-xl font-semibold text-left text-gray-800">
@@ -129,7 +129,7 @@ const Leadership = () => {
           })}
         </div>
         <div
-          className={`w-full md:w-[450px] xl:w-full h-auto mx-auto bg-white py-8 px-8 sm:py-8 sm:px-10 lg:px-14 rounded-lg border-2 sm:border-none border-slate-100`}
+          className={`w-full md:w-[450px] xl:w-full h-auto mx-auto bg-white py-8 px-8 sm:py-8 sm:px-10 lg:px-10 rounded-lg border-2 sm:border-none border-slate-100`}
         >
           <div className="flex flex-row justify-between items-center">
             <div className="flex items-center gap-6">

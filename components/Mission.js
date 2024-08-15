@@ -39,9 +39,9 @@ const Mission = () => {
               Our mission
             </h1>
             <p className="text-xl font-thin text-gray-400 leading-7 text-left">
-              We&apos;ve set a new purpose and ambition – to reimagine energy
-              for people and planet and to become a net zero company by 2050, or
-              sooner, and help the world get to net zero.
+            We aim to transform energy for a sustainable future, striving to achieve net zero emissions by 
+            2050 or earlier. Our goal is to drive innovation and lead the path to a net zero world, 
+            benefiting both people and the planet.
             </p>
           </div>
           <div className="h-[250px] lg:h-[300px] w-full lg:w-1/2 order-1 lg:order-2 flex">

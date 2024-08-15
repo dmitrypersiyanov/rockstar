@@ -96,8 +96,7 @@ const VacancyDescription = () => {
               </div>
               <div className="w-full bg-green-400 p-8 sm:p-10 md:p-14 rounded-md mt-10">
                 <h2 className="text-md sm:text-lg font-normal text-slate-700">
-                  Feeling that this position fits you? Feel free to apply via
-                  email{" "}
+                Think this role is a good match for you? Apply by sending your resume to {" "}
                   <span className="font-bold">vacancies@rockstar.com</span>
                 </h2>
               </div>
