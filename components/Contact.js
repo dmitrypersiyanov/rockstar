@@ -4,7 +4,7 @@ const Contact = ({ toggleModal }) => {
   return (
     <>
       <div
-        className={`w-screen h-screen top-0 left-0 right-0 bottom-0 fixed z-50 px-8 sm:px-10 md:px-14 xl:px-20 py-10 bg-slate-800`}
+        className={`w-screen h-calc(100dvh) top-0 left-0 right-0 bottom-0 fixed z-50 px-8 sm:px-10 md:px-14 xl:px-20 py-10 bg-slate-800`}
       >
         <div className="h-full w-full flex flex-col overflow-y-auto overflow-x-hidden no-scrollbar">
           <div className="w-full">
