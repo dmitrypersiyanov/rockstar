@@ -3,7 +3,7 @@ export const vacancies = [
     id: 1,
     title: "Drilling engineer",
     description:
-      "Design and execute drilling programs, ensuring efficient and safe operations. Select and maintain equipment, monitor drilling processes, and manage field teams. Optimize drilling techniques to enhance performance and reduce costs. Collaborate with geologists to address issues and ensure compliance with safety regulations and industry standards...",
+      "Design and execute drilling programs, ensuring efficient and safe operations. Select and maintain equipment, monitor drilling processes, and manage field teams. Optimize drilling techniques to enhance performance and reduce costs. Collaborate with geologists to address issues and ensure compliance with safety regulations and industry standards.",
     salary: "45",
     hours: "35",
     experience: "4",
@@ -35,7 +35,7 @@ export const vacancies = [
     id: 2,
     title: "Reservoir engineer",
     description:
-      "Analyze and manage reservoir performance, optimizing recovery methods and enhancing resource extraction. Develop and implement reservoir simulation models, monitor fluid dynamics, and assess reservoir behavior. Collaborate with geologists and production teams to improve field development strategies and ensure efficient reservoir management while adhering to safety and environmental standards...",
+      "Analyze and manage reservoir performance, optimizing recovery methods and enhancing resource extraction. Develop and implement reservoir simulation models, monitor fluid dynamics, and assess reservoir behavior. Collaborate with geologists and production teams to improve field development strategies and ensure efficient reservoir management while adhering to safety and environmental standards.",
     salary: "35",
     hours: "40",
     experience: "2",
@@ -67,7 +67,7 @@ export const vacancies = [
     id: 3,
     title: "Exploration manager",
     description:
-      "Lead exploration projects to identify and evaluate new resource opportunities. Oversee geological surveys, manage drilling programs, and analyze data to assess potential sites. Coordinate with geologists, engineers, and field teams to develop exploration strategies and ensure project success. Ensure compliance with safety regulations and environmental standards throughout the exploration process...",
+      "Lead exploration projects to identify and evaluate new resource opportunities. Oversee geological surveys, manage drilling programs, and analyze data to assess potential sites. Coordinate with geologists, engineers, and field teams to develop exploration strategies and ensure project success. Ensure compliance with safety regulations and environmental standards throughout the exploration process.",
     salary: "32",
     hours: "35",
     experience: "5",
@@ -99,7 +99,7 @@ export const vacancies = [
     id: 4,
     title: "Materials expert",
     description:
-      "Coordinate and manage supply chain operations to ensure timely delivery of goods and services. Optimize logistics processes, track inventory, and handle transportation planning. Collaborate with vendors, monitor performance, and resolve issues to enhance efficiency. Ensure compliance with regulatory requirements and maintain cost-effective logistics solutions...",
+      "Coordinate and manage supply chain operations to ensure timely delivery of goods and services. Optimize logistics processes, track inventory, and handle transportation planning. Collaborate with vendors, monitor performance, and resolve issues to enhance efficiency. Ensure compliance with regulatory requirements and maintain cost-effective logistics solutions.",
     salary: "30",
     hours: "40",
     experience: "1",
@@ -131,7 +131,7 @@ export const vacancies = [
     id: 5,
     title: "Contracts manager",
     description:
-      "Oversee the drafting, negotiation, and management of contracts to ensure favorable terms and compliance. Review and approve contract documents, manage vendor relationships, and resolve disputes. Implement contract policies, track performance, and ensure adherence to legal and regulatory standards. Collaborate with stakeholders to optimize contract processes and mitigate risks...",
+      "Oversee the drafting, negotiation, and management of contracts to ensure favorable terms and compliance. Review and approve contract documents, manage vendor relationships, and resolve disputes. Implement contract policies, track performance, and ensure adherence to legal and regulatory standards. Collaborate with stakeholders to optimize contract processes and mitigate risks.",
     salary: "65",
     hours: "35",
     experience: "3",

@@ -29,6 +29,10 @@ const Vacancy = ({
     }
   }, [controls, inView]);
 
+  const trimDescription = (description, maxLength = 150) => {
+    return `${description.substring(0, maxLength)}...`;
+  };
+
   return (
     <>
       <motion.div
@@ -41,7 +45,7 @@ const Vacancy = ({
         <div className="w-full ">
           <h4 className="text-md font-bold text-slate-700">{title}</h4>
           <h4 className="text-md font-normal text-slate-500 my-2 ">
-            {description}
+            {trimDescription(description)}
           </h4>
 
           <h4 className="text-md font-semibold text-slate-700 mt-5">
@@ -65,7 +69,7 @@ const Vacancy = ({
             href={`/vacancies/${title}`}
             className="py-3 px-7 text-slate-900 font-normal bg-green-400 rounded-md w-full md:w-auto"
           >
-            Apply
+            Learn more
           </Link>
         </div>
       </motion.div>
