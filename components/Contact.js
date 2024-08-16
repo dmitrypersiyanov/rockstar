@@ -15,7 +15,7 @@ const Contact = ({ toggleModal }) => {
               <PlusIcon />
             </button>
           </div>
-          <div className="w-full h-full grid grid-cols-1 lg:grid-cols-3 gap-10 py-10 mt-0 xl:mt-10">
+          <div className="w-full h-full grid grid-cols-1 lg:grid-cols-3 gap-10 py-10 mt-0 xl:my-10">
             <div className="row-span-2 rounded-xl">
               <h2 className="text-5xl text-green-400 font-bold">
                 Get in touch
